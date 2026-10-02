@@ -1,0 +1,25 @@
+# Dependencies (huge, and anyone can recreate them with npm install)
+node_modules/
+
+# Secrets (database URL, JWT secret, admin password, etc.)
+.env
+.env.*
+!.env.example
+
+# Build output (Vite generates this from your source)
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Generated files and uploads (remove these lines if you want them tracked)
+uploads/
+generated/
+*.pdf
+
+# macOS and editor clutter
+.DS_Store
+.vscode/
+.idea/
